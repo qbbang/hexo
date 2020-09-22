@@ -1,8 +1,7 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            "https://qbbang.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -28,9 +27,15 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-remote-theme
+
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
+theme:		tale
+remote_theme: 	chesterhow/tale
+
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
