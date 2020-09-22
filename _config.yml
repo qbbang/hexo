@@ -1,6 +1,7 @@
 # Site settings
-title:          Tale
+title:          조커리
 description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"   # delete this line:
 url:            "https://qbbang.github.io"
 
 # Google Analytics
