@@ -1,7 +1,6 @@
 # Site settings
 title:          조커리
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"   # delete this line:
 url:            "https://qbbang.github.io"
 
 # Google Analytics
@@ -34,7 +33,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-theme:		tale
+# theme:		tale
 remote_theme: 	chesterhow/tale
 
 permalink:      /:year-:month-:day/:title
